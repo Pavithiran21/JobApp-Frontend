@@ -1,0 +1,107 @@
+.bg-main{
+  background-image: url('./Components/Images/dashboard.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.form-value{
+  background-color:#ffffe6  ;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+.form-group{
+  max-width: 400px;
+  margin: 0;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.error:hover{
+  color: red;
+}
+.success:hover {
+  color: green;
+}
+
+.main{
+  margin: 30px;
+}
+
+.navbar-title{
+  font-family: 'Dancing Script';
+}
+
+
+
+.dashboard {
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  min-height:100vh;
+  
+}
+
+
+
+
+.custom-card { 
+  /* box-shadow:8px 0 9px 0 black;
+  transition: transform 0.2s;
+  border-radius:30px;
+  object-fit: cover;
+  width: 18rem;
+  margin-top: 30px; */
+  box-shadow: 8px 0 9px 0 black;
+  transition: transform 0.2s;
+  object-fit: cover;
+  width: 19rem;
+  margin-top: 30px;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+/* Custom CSS for PortfolioDetails component */
+
+.portfolio-details {
+  margin: 20px;
+}
+
+.custom-table {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+
+.custom-table th, .custom-table td {
+  text-align: left;
+  padding: 15px;
+}
+
+.custom-table .field {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.custom-table tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #e2e6ea;
+  transition: 0.3s ease;
+}
+
