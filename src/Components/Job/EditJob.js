@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+hii/* eslint-disable react-hooks/exhaustive-deps */
 import { Field, Form, Formik } from 'formik';
 import React, { useEffect, useState } from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
@@ -44,13 +44,6 @@ export const EditJob = () => {
       console.log(response);
       if(response.data.status){
         setEdit(response.data)
-        Swal.fire({
-          icon: 'success',
-          title: 'Success!',
-          text: response.data.message,
-          confirmButtonColor: '#3085d6',
-          confirmButtonText: 'OK',
-        });
       }
       else{
         Swal.fire({
