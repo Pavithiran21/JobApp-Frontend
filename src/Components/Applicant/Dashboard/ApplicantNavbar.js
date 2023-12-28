@@ -24,25 +24,6 @@ export const ApplicantNavbar = () => {
       .then((response) => {
         console.log(response.data);
         setProfile(response.data.data);
-    
-
-        if (response.data.status) {
-          Swal.fire({
-            icon: 'success',
-            title: 'Success!',
-            text: response.data.message,
-            confirmButtonColor: '#3085d6',
-            confirmButtonText: 'OK',
-          });
-        } else {
-          Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: response.data.message,
-            confirmButtonColor: '#d33',
-            confirmButtonText: 'OK',
-          });
-        }
       })
       .catch((error) => {
         console.log(error);
